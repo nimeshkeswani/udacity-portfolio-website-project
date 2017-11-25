@@ -3,6 +3,24 @@
 	font-family: sans-serif;
 }
 
+/* font size for smaller screens */
+@media only screen and (max-width: 450px) {
+
+   body { 
+      font-size: 0.7em; 
+   }
+
+}
+
+/* font size for larger screens */
+@media only screen and (min-width: 640px) {
+
+   body { 
+      font-size: 1.3em; 
+   }
+
+}
+
 .blue {
 	color: #02b3e4;
 }
@@ -34,6 +52,7 @@ header {
 	float: left;
 	height: 100%;
 	width: 15%;
+	min-width: 70px;
 	text-align: left;
 }
 
@@ -54,14 +73,12 @@ header {
 .title h1 {
 	font-family: sans-serif;
 	font-weight: 100;
-	font-size: 2.3em;
 	margin: 0px;
 }
 
 .title h4 {
 	font-family: sans-serif;
 	font-weight: 500;
-	font-size: 1.1em;
 	margin: 0;
 }
 
